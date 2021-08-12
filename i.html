@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        /*西洋-劇情*/
+
+        body {
+            background-image: url(img2/pop.jpg);
+           background-repeat: repeat;
+            /*background-size: cover;*/
+            background-attachment: fixed;
+            background-position: center;
+            opacity: 0.95;
+        }
+
+        #all {
+            height: auto;
+            width: 1000px;
+            position: relative;
+            /*置中*/
+            margin: 0 auto;
+            /*置中*/
+        }
+
+        #head {
+            background-color: black;
+            height: 220px;
+            color: white;
+            font-family: fantasy;
+            text-align: center;
+            font-size: 100px;
+            /*line-height: 350px;*/
+            padding-left: 200px;
+            /*距離左邊的距離*/
+            padding-top: 70px;
+        }
+
+        /*#all a:link{
+            color: white;
+            text-decoration:underline;
+        }
+        #all a:active{
+            color:crimson;
+        }
+        #all a:hover{
+            color:darkgreen;
+        }*/
+
+        #block {
+            height: 550px;
+            width: 1000px;
+            background-color: black;
+
+        }
+
+        /*-----------hover-------------*/
+
+        .pic {
+            position: absolute;
+            width: 350px;
+            float: left;
+            padding-left: 50px;
+           
+        }
+
+        .pic1 {
+            /*看要不要左右擺*/
+            position: relative;
+            width: 350px;
+            float: right;
+        }
+
+        .image {
+            display: block;
+            width: 100%;
+            height: 500px;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 50px;
+            right: 0;
+            height: 100%;
+            width: 88%;
+            opacity: 0;
+            transition: .5s ease;
+            background-color: rgb(0, 9, 26);
+            font-family: monospace;
+        }
+
+        .pic:hover .overlay {
+            opacity: 0.7;
+        }
+
+        .text {
+            color: white;
+            font-size: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        /*-----------hover-------------*/
+
+        #story {
+            /*height:450px;*/
+            width: 500px;
+            /*/background-color: #52527a;*/
+            color: white;
+            float: right;
+            font-family: Microsoft JhengHei;
+            padding-left: 60px;
+            padding-right: 80px;
+            padding-top: 60px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="all">
+         <div id="head"><big><big>Animation</big></big><small><small><small>/Asian</small></small></small></div>
+        <div id="block"><!1> 
+            <div class="pic">
+                <img src="img/%E7%8A%AC%E4%B9%8B%E5%B3%B6.jpg" alt="Avatar" class="image">
+
+                <div class="overlay">
+                    <div class="text">Isle of Dogs</div>
+                </div>
+            </div>
+
+            <div id="story">
+                <h3><b>犬之島 Isle of Dogs</b></h3>
+                <p>片長:101分鐘</p>
+                <p>【犬之島】描述的是一位 12 歲男孩小林中，為了自己的愛犬不顧一切挺身而出，反抗腐敗的小林市長，同時也是自己父親的故事。故事背景設定於距今 20 年後的日本群島，因犬隻的數量激增達到飽和程度，加上犬流感的大肆蔓延，按照巨崎市政府所公告的行政法令，所有的犬類動物都必須被流放到一個名叫「犬之島」的垃圾場。就在此時，小林中獨自坐上了一架微型螺旋飛機、飛越河流，只為了要尋找他的保鑣，同時也是他最好的愛犬朋友—「斑點」。在飛行的旅行上，小林中認識了一群毛茸茸的新「犬」友，並幸運地獲得了他們的幫助，他將展開一場史詩般的旅程，而他所走的每一步，也將決定了整個城市的命運與未來。</p>
+            </div>
+        </div>
+
+        <div id="block"><!2>
+            <div class="pic">
+                <img src="img/bbbbbb%E8%81%B2%E4%B9%8B%E8%A1%8C.jpg" alt="Avatar" class="image">
+
+                <div class="overlay">
+                    <div class="text">聲の形</div>
+                </div>
+            </div>
+
+            <div id="story">
+                <h3><b>聲之形 聲の形 </b></h3>
+                <p>片長:130分鐘</p>
+                <p>本片劇情描述「石田將也」是個極度厭惡「無聊」，並把「開朗！愉快！大冒險！」當成座右銘的憤世嫉俗少年。某日，一位耳朵聽不見的少女「西宮硝子」轉學到將也班上，除了手語和筆記本外，硝子沒辦法跟其他同學順利交談，也讓將也逮到機會，開始帶領其他同學欺負她。然而一次無心的惡作劇，卻反而讓將也成為被全班排擠的目標…。五年後，升上高中的將也，成為將自己內心深深封印住的孤獨少年。他下定決心要在結束自己的人生之前，親眼見到硝子一面，並當面向她道歉。不過這個心願，卻隨著與硝子的再度重逢，產生了微妙轉變…。</p>
+            </div>
+        </div>
+
+        <div id="block"><!3>
+            <div class="pic">
+                <img src="img/%E6%9F%AF%E5%8D%97.jpg" alt="Avatar" class="image">
+
+                <div class="overlay">
+                    <div class="text">名探偵コナン ゼロの執行人 </div>
+                </div>
+            </div>
+
+            <div id="story">
+                <h3><b>名偵探柯南：零的執行人 名探偵コナン ゼロの執行人 </b></h3>
+                <p>片長:111分鐘</p>
+                <p>東京灣最新而宏偉的建築「Edge of Ocean」即將在 5 月1 日舉辦國際高峰會，國內外政商聚集，兩萬兩千名警力高度戒備，不料卻遭人暗中潛伏，策動了一場巨大爆炸事故！事件後找到的犯案證物卻遺留毛利小五郎的指紋！毛利小五郎隨即被警方逮捕，而柯南感受到此事件有一層難以揭開的面紗，開始調查。
+                此時所屬警察廳秘密組織「零（Zero）」的「安室透」卻阻止柯南參與調查，要證明小五郎清白的機會正漸漸消逝……神秘的安室透被下令執行「極密行動」，背後的主使者到底是誰，是警察廳或許是黑暗組織?腹背受敵的柯南，必須獨自對抗警察和安室透，他會如何脫困？潛伏在角落伺機而動的黑暗組織又有何目的？一切只待引爆那一刻！
+                </p>
+            </div>
+        </div>
+
+        <div id="block"><!4>
+            <div class="pic">
+                <img src="img/%E7%84%A1%E6%95%B5%E9%90%B5%E9%87%91%E5%89%9B.jpg" alt="Avatar" class="image">
+
+                <div class="overlay">
+                    <div class="text">マジンガーZ / INFINITY</div>
+                </div>
+            </div>
+
+            <div id="story">
+                <h3><b>無敵鐵金剛／INFINITY マジンガーZ / INFINITY</b></h3>
+                <p>片長:93分鐘</p>
+                <p>過去，因為企圖征服世界的邪惡天才科學家 Dr. 地獄，而使人類陷入了滅亡的危機。但由於兜甲兒駕駛著被稱為「鋼鐵之城」的超級機器人—無敵鐵金剛，以及夥伴們的努力，才得以恢復和平。
+                而在那世界之戰的十年後，不再當機器人駕駛，而改成為科學家的兜甲兒，某日在富士山地底見到了，被埋在該處的超巨大遺跡——INFINITY，以及同時出現的神秘生命體．莉莎。就在同時，Dr. 地獄也神秘的復活了。而Dr. 地獄打算利用 INIFITY 所潛藏的無限可能性，去完成他過去抱持的野心。有史以來最大的危機、千鈞一髮的緊要關頭中，傳說中的駕駛員將與無敵鐵金剛再次一同挺身而出！
+                </p>
+            </div>
+        </div>
+
+        <div id="block"><!5>
+            <div class="pic">
+                <img src="img/%E5%93%86%E5%95%A6A%E5%A4%A2.jpg" alt="Avatar" class="image">
+
+                <div class="overlay">
+                    <div class="text">ドラえもん のび太の宝島</div>
+                </div>
+            </div>
+
+            <div id="story">
+                <h3><b>哆啦 A 夢：大雄的金銀島 ドラえもん のび太の宝島</b></h3>
+                <p>片長:140分鐘</p>
+                <p>《哆啦 A 夢：大雄的金銀島》創下了劇場版在在日本的最高觀影人次、最高票房雙記錄！新篇中七隻迷你哆啦閃亮登場，故事也有了新鮮的發展。大雄少了怯懦多了擔當，靜香遭遇困境也能勇敢面對，胖虎不再只顧著欺負同伴……甚至哆啦A 夢的道具都不再萬能，兇惡的海盜竟然擁有比哆啦 A 夢更加先進的裝備！哆啦 A 夢還意外的陷入了絕境，命懸一線……面對危機，大雄一行人將如何應對？
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <!all!>
+
+</body>
+</html>

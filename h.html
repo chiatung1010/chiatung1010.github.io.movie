@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        /*西洋-劇情*/
+
+        body {
+            background-image: url(img2/pop.jpg);
+            background-repeat: repeat;
+            /*background-size: cover;*/
+            background-attachment: fixed;
+            background-position: center;
+            opacity: 0.95;
+        }
+
+        #all {
+            height: auto;
+            width: 1000px;
+            position: relative;
+            /*置中*/
+            margin: 0 auto;
+            /*置中*/
+        }
+
+        #head {
+            background-color: black;
+            height: 220px;
+            color: white;
+            font-family: fantasy;
+            text-align: center;
+            font-size: 100px;
+            /*line-height: 350px;*/
+            padding-left: 200px;
+            /*距離左邊的距離*/
+            padding-top: 70px;
+        }
+
+        /*#all a:link{
+            color: white;
+            text-decoration:underline;
+        }
+        #all a:active{
+            color:crimson;
+        }
+        #all a:hover{
+            color:darkgreen;
+        }*/
+
+        #block {
+            height: 550px;
+            width: 1000px;
+            background-color: black;
+
+        }
+
+        /*-----------hover-------------*/
+
+        .pic {
+            position: absolute;
+            width: 350px;
+            float: left;
+            padding-left: 50px;
+           
+        }
+
+        .pic1 {
+            /*看要不要左右擺*/
+            position: relative;
+            width: 350px;
+            float: right;
+        }
+
+        .image {
+            display: block;
+            width: 100%;
+            height: 500px;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 50px;
+            right: 0;
+            height: 100%;
+            width: 88%;
+            opacity: 0;
+            transition: .5s ease;
+            background-color: rgb(0, 9, 26);
+            font-family: monospace;
+        }
+
+        .pic:hover .overlay {
+            opacity: 0.7;
+        }
+
+        .text {
+            color: white;
+            font-size: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        /*-----------hover-------------*/
+
+        #story {
+            /*height:450px;*/
+            width: 500px;
+            /*/background-color: #52527a;*/
+            color: white;
+            float: right;
+            font-family: Microsoft JhengHei;
+            padding-left: 60px;
+            padding-right: 80px;
+            padding-top: 60px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="all">
+         <div id="head"><big><big>Drama</big></big><small><small><small>/Asian</small></small></small></div>
+        <div id="block"><!1> 
+            <div class="pic">
+                <img src="img/%E5%86%A0%E8%BB%8D%E5%A4%A7%E5%8F%94.jpg" alt="Avatar" class="image">
+
+                <div class="overlay">
+                    <div class="text">챔피언</div>
+                </div>
+            </div>
+
+            <div id="story">
+                <h3><b>冠軍大叔	챔피언 
+                </b></h3>
+                <p>片長:110分鐘</p>
+                <p>有著天生神力手臂的選手 Mark（馬東石飾）及想藉著他的力量逆人生的經紀人振基（權律 飾），再加上帶著一對兒女的妹妹秀珍（韓藝利 飾），這是他們如同奇蹟般的人生故事。</p>
+            </div>
+        </div>
+
+        <div id="block"><!2>
+            <div class="pic">
+                <img src="img/%E7%87%83%E7%87%92%E7%83%88%E6%84%9B.jpg" alt="Avatar" class="image">
+
+                <div class="overlay">
+                    <div class="text">버닝</div>
+                </div>
+            </div>
+
+            <div id="story">
+                <h3><b>燃燒烈愛 버닝
+                </b></h3>
+                <p>片長:148分鐘</p>
+                <p>故事講述生活圈完全沒有交集的兩個極端男人宗秀（劉亞仁 飾）、班（史蒂芬元 飾）和女主角海美（姜鍾淑 飾）之間發生的故事。劉亞仁將在片中飾演性格單純又敏感、為深愛的女人揭開謎團的男主角宗秀。在一次聚會中，班無意間透漏自己不為人知的嗜好，而自從那次聚會後，宗秀開始一直連繫不到海美，卻在班的車上見到他送給海美的手錶⋯。 </p>
+            </div>
+        </div>
+
+        <div id="block"><!3>
+            <div class="pic">
+                <img src="img/aaaaaaaa%E8%A7%A3%E6%86%82%E9%9B%9C%E8%B2%A8%E5%BA%97.jpg" alt="Avatar" class="image">
+
+                <div class="overlay">
+                    <div class="text"> ナミヤ雑貨店の奇蹟</div>
+                </div>
+            </div>
+
+            <div id="story">
+                <h3><b>解憂雜貨店 ナミヤ雑貨店の奇蹟
+                </b></h3>
+                <p>片長:131分鐘</p>
+                <p>2012 年的某一天，夜不歸戶的少年敦也（山田涼介 飾）和 2 個朋友逃竄在街道間，他們為了等天亮，躲進一間無人的空屋，那是個停止營業的雜貨店。
+                一封突然投進空屋的信，讓他們驚荒失措，而 3 人發現這竟是一封來自 32 年前寫給雜貨店老闆浪矢雄治（西田敏行 飾）諮詢煩惱的信...。此時他們還不知道，這間空屋是解救過許多人心靈的雜貨店。而且這一晚，將會是改變他們人生的「奇蹟」之夜…。
+                </p>
+            </div>
+        </div>
+    </div>
+    <!all!>
+
+</body>
+</html>

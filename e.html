@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        /*西洋-劇情*/
+
+        body {
+            background-image: url(img2/pop.jpg);
+            background-repeat: repeat;
+            /*background-size: cover;*/
+            background-attachment: fixed;
+            background-position: center;
+            opacity: 0.95;
+        }
+
+        #all {
+            height: auto;
+            width: 1000px;
+            position: relative;
+            /*置中*/
+            margin: 0 auto;
+            /*置中*/
+        }
+
+        #head {
+            background-color: black;
+            height: 220px;
+            color: white;
+            font-family: fantasy;
+            text-align: center;
+            font-size: 100px;
+            /*line-height: 350px;*/
+            padding-left: 200px;
+            /*距離左邊的距離*/
+            padding-top: 70px;
+        }
+
+        /*#all a:link{
+            color: white;
+            text-decoration:underline;
+        }
+        #all a:active{
+            color:crimson;
+        }
+        #all a:hover{
+            color:darkgreen;
+        }*/
+
+        #block {
+            height: 550px;
+            width: 1000px;
+            background-color: black;
+
+        }
+
+        /*-----------hover-------------*/
+
+        .pic {
+            position: absolute;
+            width: 350px;
+            float: left;
+            padding-left: 50px;
+           
+        }
+
+        .pic1 {
+            /*看要不要左右擺*/
+            position: relative;
+            width: 350px;
+            float: right;
+        }
+
+        .image {
+            display: block;
+            width: 100%;
+            height: 500px;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 50px;
+            right: 0;
+            height: 100%;
+            width: 88%;
+            opacity: 0;
+            transition: .5s ease;
+            background-color: rgb(0, 9, 26);
+            font-family: monospace;
+        }
+
+        .pic:hover .overlay {
+            opacity: 0.7;
+        }
+
+        .text {
+            color: white;
+            font-size: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        /*-----------hover-------------*/
+
+        #story {
+            /*height:450px;*/
+            width: 500px;
+            /*/background-color: #52527a;*/
+            color: white;
+            float: right;
+            font-family: Microsoft JhengHei;
+            padding-left: 60px;
+            padding-right: 80px;
+            padding-top: 60px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="all">
+         <div id="head"><big><big>Drama</big></big><small><small><small>/Mandarin</small></small></small></div>
+        <div id="block"><!1> 
+            <div class="pic">
+                <img src="img/%E8%A1%80%E8%A7%80%E9%9F%B3.jpg" alt="Avatar" class="image">
+
+                <div class="overlay">
+                    <div class="text">The Bold, The Corrupt,and the Beautiful</div>
+                </div>
+            </div>
+
+            <div id="story">
+                <h3><b>血觀音 The Bold, The Corrupt, and the Beautiful</b></h3>
+                <p>片長:112分鐘</p>
+                <p>棠府，住著三位不同世代但一樣懂人心的女性，沒有男人的棠家，一向由棠夫人主持大局，在權貴間穿針引線，個性如刺蝟般的大女兒棠寧為求母親肯定，勉力配合，乖巧的小女兒棠真多半靜靜觀察，唯母命是從。直到某天，棠家親密友人慘遭滅門事件爆發，三人各自被牽扯其中，一向以大局為重的棠夫人，為了守護一切，費盡心機，卻讓三人走向不同的命運…</p>
+            </div>
+        </div>
+
+        <div id="block"><!2>
+            <div class="pic">
+                <img src="img/%E5%A4%A7%E4%BD%9B%E6%99%AE%E6%8B%89%E6%96%AF.jpg" alt="Avatar" class="image">
+
+                <div class="overlay">
+                    <div class="text">The Great Buddha</div>
+                </div>
+            </div>
+
+            <div id="story">
+                <h3><b>大佛普拉斯 The Great Buddha </b></h3>
+                <p>片長:102分鐘</p>
+                <p>在佛像工廠擔任夜間警衛的菜埔(莊益增 飾)，每天最重要的工作就是深夜幫董仔啟文（戴立忍 飾）開大門，他撿破爛的換帖兄弟肚財（陳竹昇 飾）平時沒事就會來這裡看電視卡唬爛。那天凌晨雨很大，肚財帶著快要過期的咖喱飯來找菜埔，偏偏電視又壞掉，肚財聽人家說有錢人的世界都是彩色的，於是慫恿菜埔拿出董仔的行車紀錄器看看有沒有養眼的東西。但 2 人也從一個單純享受情色廣播劇的小確幸夜晚，莫名捲入一個政商勾結、情慾橫流、驚天動地的超完美謀殺計畫。1 尊大佛、1間工廠、8 個不同背景的小人物一同刻劃出最荒謬的甘味人生…</p>
+            </div>
+        </div>
+
+        <div id="block"><!3>
+            <div class="pic">
+                <img src="img/GATAO2.jpg" alt="Avatar" class="image">
+
+                <div class="overlay">
+                    <div class="text">GATAO 2-The New Leader Rising</div>
+                </div>
+            </div>
+
+            <div id="story">
+                <h3><b>角頭 2：王者再起 GATAO 2-The New Leader Rising</b></h3>
+                <p>片長:126分鐘</p>
+                <p>角頭 2：王者再起》劇情講述北館接班人 仁哥（王識賢 飾),擁有雄心壯志卻囿於角頭老大 貴董（高捷 飾）的人情包袱無法伸展，黑色國度變得安逸而恬淡……不料老謀深算又冷酷無情的 劉健（鄒兆龍 飾）重現江湖，喚醒了仁哥心中的猛獸，是情勢所逼？還是兄弟悲歌的宿命？曾經亦敵亦友的仁哥與劉 健，最終對決一觸即發《角頭 2：王者再起》將於 2018年2月14日上映</p>
+            </div>
+        </div>
+
+        <div id="block"><!4>
+            <div class="pic">
+                <img src="img/%E5%A4%A7%E9%87%A3%E5%93%A5.jpg" alt="Avatar" class="image">
+
+                <div class="overlay">
+                    <div class="text">Hanky Panky</div>
+                </div>
+            </div>
+
+            <div id="story">
+                <h3><b>大釣哥 Hanky Panky</b></h3>
+                <p>片長:110分鐘</p>
+                <p>人稱大釣哥的藍天（豬哥亮 飾）開了一間正龍國術館，接骨、經絡推拿、放血樣樣都不會，所有要死不死的雜症只靠一味，就是祖傳秘方的「吊膏」（發音: 釣哥），靠著這吊膏離奇的治癒不少人，於是大家叫他大釣哥！藍天的兒子不叫小釣哥，叫小龍（藍正龍 飾）手腳敏捷攀岩走壁，跟著老爸專偷扒手偷來的竊物救濟貧戶，希望引出老爸的世敵黑熊（吳朋奉 飾演）。 不料，為了幫助法律系畢業的心儀對象黃心怡（謝沛恩 飾）赴美深造，小龍竟向黑熊借了三百萬！在某次火拼時，為黑熊頂罪，以現行犯被收押。大釣哥為了幫兒子洗清罪嫌，請求舊識同時是檢察官（吳克群 飾）的母親白秀娟（楊貴媚 飾）聯手追查真相時，扯出案外案，他們決定將計就計使出大絕招救出藍小龍，計外有計，即將爆笑爆淚登場…</p>
+            </div>
+        </div>
+
+        <div id="block"><!5>
+            <div class="pic">
+                <img src="img/%E8%80%81%E5%B8%AB%E4%BD%A0%E6%9C%83%E4%B8%8D%E6%9C%83%E5%9B%9E%E4%BE%86.jpg" alt="Avatar" class="image">
+
+                <div class="overlay">
+                    <div class="text">Turn Around </div>
+                </div>
+            </div>
+
+            <div id="story">
+                <h3><b>老師你會不會回來 Turn Around </b></h3>
+                <p>片長:108分鐘</p>
+                <p>老師你會不會回來》改編真人真事同名暢銷小說，講述年輕教師王政忠，在九二一地震前後於中寮的爽文國中任教，因為地震的重創，讓他決心留在這個沒有便利商店的鄉鎮，試著用教育翻轉這群偏鄉小孩的人生。是元介與夏于喬分別飾演對偏鄉小孩的教育永不放棄的老師。</p>
+            </div>
+        </div>
+
+        <div id="block"><!6>
+            <div class="pic">
+                <img src="img/%E7%99%A1%E6%83%85%E7%94%B7%E5%AD%90%E6%BC%A2.jpg" alt="Avatar" class="image">
+
+                <div class="overlay">
+                    <div class="text">All Because Of Love </div>
+                </div>
+            </div>
+
+            <div id="story">
+                <h3><b>癡情男子漢 All Because Of Love </b></h3>
+                <p>片長:114分鐘</p>
+                <p>電影的背景設定在2045年，全世界正瀕臨混亂和瓦解的邊緣，但人們在「綠洲」中找到慰藉，那是一種遼闊的虛擬實境宇宙，由怪胎奇才詹姆哈勒代（馬克勞倫斯 飾）所創造。哈勒代死後在遺囑中宣布，他要把巨額的遺產留給第一個找到「程式彩蛋」的人，那些彩蛋就隱藏在綠洲中，而這引發全球玩家的激烈競爭。當一個名不見經傳的少年韋德瓦茨（泰謝里丹 飾）決定加入競賽，他頓時在這個神祕、新奇又危險的幻想宇宙中，陷入一場生死攸關又扭曲現實的尋寶遊戲。</p>
+            </div>
+        </div>
+
+    </div>
+    <!all!>
+
+</body>
+</html>

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        /*西洋-劇情*/
+
+        body {
+            background-image: url(img2/pop.jpg);
+            background-repeat: repeat;
+            /*background-size: cover;*/
+            background-attachment: fixed;
+            background-position: center;
+            opacity: 0.95;
+        }
+
+        #all {
+            height: auto;
+            width: 1000px;
+            position: relative;
+            /*置中*/
+            margin: 0 auto;
+            /*置中*/
+        }
+
+        #head {
+            background-color: black;
+            height: 220px;
+            color: white;
+            font-family: fantasy;
+            text-align: center;
+            font-size: 100px;
+            /*line-height: 350px;*/
+            padding-left: 200px;
+            /*距離左邊的距離*/
+            padding-top: 70px;
+        }
+
+        /*#all a:link{
+            color: white;
+            text-decoration:underline;
+        }
+        #all a:active{
+            color:crimson;
+        }
+        #all a:hover{
+            color:darkgreen;
+        }*/
+
+        #block {
+            height: 550px;
+            width: 1000px;
+            background-color: black;
+
+        }
+
+        /*-----------hover-------------*/
+
+        .pic {
+            position: absolute;
+            width: 350px;
+            float: left;
+            padding-left: 50px;
+           
+        }
+
+        .pic1 {
+            /*看要不要左右擺*/
+            position: relative;
+            width: 350px;
+            float: right;
+        }
+
+        .image {
+            display: block;
+            width: 100%;
+            height: 500px;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 50px;
+            right: 0;
+            height: 100%;
+            width: 88%;
+            opacity: 0;
+            transition: .5s ease;
+            background-color: rgb(0, 9, 26);
+            font-family: monospace;
+        }
+
+        .pic:hover .overlay {
+            opacity: 0.7;
+        }
+
+        .text {
+            color: white;
+            font-size: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        /*-----------hover-------------*/
+
+        #story {
+            /*height:450px;*/
+            width: 500px;
+            /*/background-color: #52527a;*/
+            color: white;
+            float: right;
+            font-family: Microsoft JhengHei;
+            padding-left: 60px;
+            padding-right: 80px;
+            padding-top: 60px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="all">
+         <div id="head"><big><big>Comedy</big></big><small><small><small>/Mandarin</small></small></small></div>
+         <div id="block"><!1>
+            <div class="pic">
+                <img src="img/%E8%8A%B1%E7%94%B2%E5%A4%A7%E4%BA%BA%E8%BD%89%E7%94%B7%E5%AD%A9.jpg" alt="Avatar" class="image">
+
+                <div class="overlay">
+                    <div class="text">Back to the Good Times</div>
+                </div>
+            </div>
+
+            <div id="story">
+                <h3><b>花甲大人轉男孩 Back to the Good Times</b></h3>
+                <p>片長:119分鐘</p>
+                <p>電影版由花甲退伍之後的生活展開，花甲夢想開的古厝民宿順利開張了？花明為什麼扮起女裝？阿瑋和花甲面臨男女交往轉大人的「試車」考驗？</p>
+            </div>
+        </div>
+        
+        <div id="block"><!2>
+            <div class="pic">
+                <img src="img/%E5%81%A5%E5%BF%98%E6%9D%91.jpg" alt="Avatar" class="image">
+
+                <div class="overlay">
+                    <div class="text">The Village of No Return</div>
+                </div>
+            </div>
+
+            <div id="story">
+                <h3><b>健忘村 The Village of No Return</b></h3>
+                <p>片長:112分鐘</p>
+                <p>從前從前，在一個遙遠的村落，村民們看似無憂無慮。有一天，發生一件離奇事件，又來了一個神秘之客「天虹真人」，他帶來一個神奇寶物「忘憂神器」，引發了一連串危機，更改變這個村子的命運。</p>
+            </div>
+        </div>
+
+        <div id="block"><!3>
+            <div class="pic">
+                <img src="img/%E5%B8%82%E9%95%B7%E5%A4%AB%E4%BA%BA%E7%9A%84%E7%A7%98%E5%AF%86.jpg" alt="Avatar" class="image">
+
+                <div class="overlay">
+                    <div class="text">Let's Cheat Together</div>
+                </div>
+            </div>
+
+            <div id="story">
+                <h3><b>市長夫人的秘密 Let's Cheat Together</b></h3>
+                <p>片長:98分鐘</p>
+                <p>專門解決男女戀愛糾紛的「愛情大師」程見（張少懷 飾），做夢也沒想到自己有一天會被人痛毆塞進海邊消波塊，甚至要面臨全民大公審的窘境！一段程見與市長夫人在餐廳包廂激吻的偷拍畫面，正在網路上病毒般地全面擴散，這位綜藝名嘴眼看就要身敗名裂，他該如何發揮舌燦蓮花的功力，讓「一路走來始終潑辣」的經紀人女友 MiuMiu（柯佳嬿 飾）相信自己的清白呢？而這一切的混亂卻是來自市府的極機密委託引起，市長要求程見假冒身份接近偷吃成性的市長夫人，想在選前低調解決夫人不為人知的「小秘密」。如今身陷意想不到的桃色風波，程見該如何靠著自己過人的觀察力抽絲剝繭，從荒謬的政治風暴中完美脫身呢？</p>
+            </div>
+        </div>
+        <div id="block"><!4>
+            <div class="pic">
+                <img src="img/%E5%A4%A7%E9%87%A3%E5%93%A5.jpg" alt="Avatar" class="image">
+
+                <div class="overlay">
+                    <div class="text">Hanky Panky</div>
+                </div>
+            </div>
+
+            <div id="story">
+                <h3><b>大釣哥 Hanky Panky</b></h3>
+                <p>片長:110分鐘</p>
+                <p>人稱大釣哥的藍天（豬哥亮 飾）開了一間正龍國術館，接骨、經絡推拿、放血樣樣都不會，所有要死不死的雜症只靠一味，就是祖傳秘方的「吊膏」（發音: 釣哥），靠著這吊膏離奇的治癒不少人，於是大家叫他大釣哥！藍天的兒子不叫小釣哥，叫小龍（藍正龍 飾）手腳敏捷攀岩走壁，跟著老爸專偷扒手偷來的竊物救濟貧戶，希望引出老爸的世敵黑熊（吳朋奉 飾演）。 不料，為了幫助法律系畢業的心儀對象黃心怡（謝沛恩 飾）赴美深造，小龍竟向黑熊借了三百萬！在某次火拼時，為黑熊頂罪，以現行犯被收押。大釣哥為了幫兒子洗清罪嫌，請求舊識同時是檢察官（吳克群 飾）的母親白秀娟（楊貴媚 飾）聯手追查真相時，扯出案外案，他們決定將計就計使出大絕招救出藍小龍，計外有計，即將爆笑爆淚登場…</p>
+            </div>
+        </div>
+    </div>
+    <!all!>
+
+</body>
+</html>

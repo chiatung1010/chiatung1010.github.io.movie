@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        /*西洋-劇情*/
+
+        body {
+            background-image: url(img2/pop.jpg);
+            background-repeat:repeat;
+            /*background-size: cover;*/
+            background-attachment: fixed;
+            background-position: center;
+            opacity: 0.95;
+        }
+
+        #all {
+            height: auto;
+            width: 1000px;
+            position: relative;
+            /*置中*/
+            margin: 0 auto;
+            /*置中*/
+        }
+
+        #head {
+            background-color: black;
+            height: 200px;
+            color: white;
+            font-family: fantasy;
+            text-align: center;
+            font-size: 80px;
+            /*line-height: 350px;*/
+            padding-left: 200px;
+            /*距離左邊的距離*/
+            padding-top: 70px;
+        }
+
+        /*#all a:link{
+            color: white;
+            text-decoration:underline;
+        }
+        #all a:active{
+            color:crimson;
+        }
+        #all a:hover{
+            color:darkgreen;
+        }*/
+
+        #block {
+            height: 550px;
+            width: 1000px;
+            background-color: black;
+
+        }
+
+        /*-----------hover-------------*/
+
+        .pic {
+            position: absolute;
+            width: 350px;
+            float: left;
+            padding-left: 50px;
+        }
+
+        .pic1 {
+            /*看要不要左右擺*/
+            position: relative;
+            width: 350px;
+            float: right;
+        }
+
+        .image {
+            display: block;
+            width: 100%;
+            height: 500px;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 50px;
+            right: 0;
+            height: 100%;
+            width: 88%;
+            opacity: 0;
+            transition: .5s ease;
+            background-color: rgb(0, 9, 26);
+            font-family: monospace;
+            
+        }
+
+        .pic:hover .overlay {
+            opacity: 0.7;
+        }
+
+        .text {
+            color: white;
+            font-size: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        /*-----------hover-------------*/
+
+        #story {
+            /*height:450px;*/
+            width: 500px;
+            /*/background-color: #52527a;*/
+            color: white;
+            float: right;
+            font-family: Microsoft JhengHei;
+            padding-left: 60px;
+            padding-right: 80px;
+            padding-top: 60px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="all">
+        <div id="head"><big><big>Drama</big></big><small><small><small>/Westerns</small></small></small></div>
+        <div id="block">
+            <!1>
+            <div class="pic">
+                <img src="img/%E7%A7%BB%E5%8B%95%E8%BF%B7%E5%AE%AE.jpg" alt="Avatar" class="image">
+
+                <div class="overlay">
+                    <div class="text">Maze Runner: The Death Cure</div>
+                </div>
+            </div>
+
+            <div id="story">
+                <h3><b>移動迷宮：死亡解藥 Maze Runner: The Death Cure</b></h3>
+                <p>片長:142分鐘</p>
+                <p>《移動迷宮3》作為系列最終章，沿襲系列一貫以來的勁爆動作戲和快節奏跑酷風，主要講述迪倫·奧布萊恩飾演的托馬斯率領的好萊塢「跑男團」在經歷了迷宮逃脫和末日喪屍的生死考驗後，終於迎來最後的正邪較量......</p>
+            </div>
+        </div>
+
+        <div id="block">/*2*/
+            <div class="pic">
+                <img src="img/%E7%B4%85%E9%9B%80.jpg" alt="Avatar" class="image">
+
+                <div class="overlay">
+                    <div class="text">Red Sparrow</div>
+                </div>
+            </div>
+
+            <div id="story">
+                <h3><b>紅雀 Red Sparrow</b></h3>
+                <p>片長:140分鐘</p>
+                <p>改編自同名懸疑驚悚小說電影。正值花樣年華的芭蕾舞名伶被迫成為冷面無情的殺手，當她深入俄國情報部門，也牽扯出更多驚人的情報，以及禁忌之戀。</p>
+            </div>
+        </div>
+
+        <div id="block">/*3*/
+            <div class="pic">
+                <img src="img/%E4%B8%80%E7%B4%9A%E7%8E%A9%E5%AE%B6%E4%B8%AD%E6%96%87.jpg" alt="Avatar" class="image">
+
+                <div class="overlay">
+                    <div class="text">Ready Player One</div>
+                </div>
+            </div>
+
+            <div id="story">
+                <h3><b>一級玩家 Ready Player One</b></h3>
+                <p>片長:140分鐘</p>
+                <p>電影的背景設定在2045年，全世界正瀕臨混亂和瓦解的邊緣，但人們在「綠洲」中找到慰藉，那是一種遼闊的虛擬實境宇宙，由怪胎奇才詹姆哈勒代（馬克勞倫斯 飾）所創造。哈勒代死後在遺囑中宣布，他要把巨額的遺產留給第一個找到「程式彩蛋」的人，那些彩蛋就隱藏在綠洲中，而這引發全球玩家的激烈競爭。當一個名不見經傳的少年韋德瓦茨（泰謝里丹 飾）決定加入競賽，他頓時在這個神祕、新奇又危險的幻想宇宙中，陷入一場生死攸關又扭曲現實的尋寶遊戲。</p>
+            </div>
+        </div>
+
+        <div id="block">/*4*/
+            <div class="pic">
+                <img src="img/%E9%BB%91%E8%B1%B9.jpg" alt="Avatar" class="image">
+
+                <div class="overlay">
+                    <div class="text">Black Panther</div>
+                </div>
+            </div>
+
+            <div id="story">
+                <h3><b>黑豹 Black Panther</b></h3>
+                <p>片長:134分鐘</p>
+                <p>《黑豹》的故事將接續在《美國隊長3：英雄內戰》之後，帝查拉(查德維克博斯曼 飾演)返回擁有先進科技卻與世隔絕的瓦干達接下王位，在登基前他尋回秘密執行任務的娜奇雅(露琵塔尼詠歐 飾演)，並接受登基儀式的考驗。然而積怨已久的宿敵再度出現，將他捲入一場波及瓦干達全國甚至全世界安危的巨大紛爭之中，帝查拉身為國王和黑豹的勇氣和能力將受到最嚴峻的挑戰，每一代黑豹都要進食一塊心形藥草以得到超乎凡人的速度、力量、體能、耐力以及敏銳度</p>
+            </div>
+        </div>
+
+        <div id="block">/*5*/
+            <div class="pic">
+                <img src="img/%E5%BE%A9%E4%BB%87%E8%80%853.jpg" alt="Avatar" class="image">
+
+                <div class="overlay">
+                    <div class="text">Avengers3: Infinity War</div>
+                </div>
+            </div>
+
+            <div id="story">
+                <h3><b>復仇者聯盟3:無限之戰 Avengers: Infinity War</b></h3>
+                <p>片長:149分鐘</p>
+                <p>《復仇者聯盟3：無限戰爭》是漫威電影宇宙10周年的曆史性集結，將爲影迷們帶來史詩版的終極對決。面對滅霸突然發起的閃電襲擊，複仇者聯盟及其所有超級英雄盟友必須全力以赴，才能阻止他對全宇宙造成毀滅性的打擊。故事在敘述自從英雄內戰之後，復仇者聯盟便徹底瓦解，但遠在宇宙的邪惡大反派薩諾斯卻漸漸逼近，率領他的孩子闇黑號令們，一同前往各地去奪取那六顆無限寶石，而地球就存在著其中的兩顆寶石，分別是奇異博士項鍊中的時間寶石和幻視額頭上的心靈寶石。</p>
+            </div>
+        </div>
+
+        <div id="block">/*6*/
+            <div class="pic">
+                <img src="img/%E6%AD%BB%E4%BE%8D.jpg" alt="Avatar" class="image">
+
+                <div class="overlay">
+                    <div class="text">Deadpool2
+                    </div>
+                </div>
+            </div>
+
+            <div id="story">
+                <h3><b>死侍2 Deadpool2
+                </b></h3>
+                <p>片長:119分鐘</p>
+                <p>《死侍2》不只包括從「死侍」本人萊恩雷諾斯再次親手擔綱本片監製與男主角的重要角色，更是首度好萊塢動作片名導《捍衛任務》大衛雷奇合作。而首集中出現的重要角色們，包括「青少女彈頭」布莉安娜海德布蘭德、「鋼人」、「盲婦愛兒」萊絲莉厄格絲、「死侍女友」莫蓮娜芭卡琳，甚至連死侍的好麻吉，印度計程車司機「阿杜」卡蘭索尼也都全數力挺，再次回歸這個影史最賤英雄的最新續作。除此之外，本次更是找來了吸血加入，包括由薩琪彼茲所飾演的「多米諾」，以及「機堡」喬許布洛林。</p>
+            </div>
+        </div>
+
+    </div>
+    <!all!>
+
+</body>
+</html>

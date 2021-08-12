@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        /*西洋-劇情*/
+
+        body {
+            background-image: url(img2/pop.jpg);
+            background-repeat: repeat;
+            /*background-size: cover;*/
+            background-attachment: fixed;
+            background-position: center;
+            opacity: 0.95;
+        }
+
+        #all {
+            height: auto;
+            width: 1000px;
+            position: relative;
+            /*置中*/
+            margin: 0 auto;
+            /*置中*/
+        }
+
+        #head {
+            background-color: black;
+            height: 220px;
+            color: white;
+            font-family: fantasy;
+            text-align: center;
+            font-size: 100px;
+            /*line-height: 350px;*/
+            padding-left: 200px;
+            /*距離左邊的距離*/
+            padding-top: 70px;
+        }
+
+        /*#all a:link{
+            color: white;
+            text-decoration:underline;
+        }
+        #all a:active{
+            color:crimson;
+        }
+        #all a:hover{
+            color:darkgreen;
+        }*/
+
+        #block {
+            height: 550px;
+            width: 1000px;
+            background-color: black;
+
+        }
+
+        /*-----------hover-------------*/
+
+        .pic {
+            position: absolute;
+            width: 350px;
+            float: left;
+            padding-left: 50px
+            
+           
+        }
+
+        .pic1 {
+            /*看要不要左右擺*/
+            position: relative;
+            width: 350px;
+            float: right;
+        }
+
+        .image {
+            display: block;
+            width: 100%;
+            height: 500px;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 50px;
+            right: 0;
+            height: 100%;
+            width: 88%;
+            opacity: 0;
+            transition: .5s ease;
+            background-color: rgb(0, 9, 26);
+            font-family: monospace;
+        }
+
+        .pic:hover .overlay {
+            opacity: 0.7;
+        }
+
+        .text {
+            color: white;
+            font-size: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        /*-----------hover-------------*/
+
+        #story {
+            /*height:450px;*/
+            width: 500px;
+            /*/background-color: #52527a;*/
+            color: white;
+            float: right;
+            font-family: Microsoft JhengHei;
+            padding-left: 60px;
+            padding-right: 80px;
+            padding-top: 60px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="all">
+         <div id="head"><big><big>Horror</big></big><small><small><small>/Westerns</small></small></small></div>
+        <div id="block"><!1> 
+            <div class="pic">
+                <img src="img/%E4%BA%BA%E8%82%89%E6%90%9C%E7%B4%A2.jpg" alt="Avatar" class="image">
+
+                <div class="overlay">
+                    <div class="text">Searching </div>
+                </div>
+            </div>
+
+            <div id="story">
+                <h3><b>人肉搜索 Searching 
+                </b></h3>
+                <p>片長:101分鐘</p>
+                <p>《一名父親(周約翰 飾)在其 16 歲女兒離奇失蹤後，登入女兒的電腦試圖透過臉書、Instagram 與信箱等記錄的蛛絲馬跡來拼湊真相。沒想到在搜尋的過程他卻意外發現許多女兒不為人知的一面，這才驚覺她早已和自己所認知的模樣相差甚遠，整體失蹤案件亦曝光在社會及社群的高度關注中⋯然而就在警方調查毫無進展、看似走投無路之際，傷心欲絕的父親也發現越來越多可疑證據，他該如何才能憑藉網路科技的力量找出真兇、挽救即將失去的一切呢？</p>
+            </div>
+        </div>
+
+        <div id="block"><!2>
+            <div class="pic">
+                <img src="img/%E5%99%A4%E7%95%8C.jpg" alt="Avatar" class="image">
+
+                <div class="overlay">
+                    <div class="text">A Quiet Place</div>
+                </div>
+            </div>
+
+            <div id="story">
+                <h3><b>噤界 A Quiet Place
+                </b></h3>
+                <p>片長:91分鐘</p>
+                <p>當地球即將末日之際，只有少數的倖存者活在這個世界上，那些兇殘的神秘的外星生物，雖然看不見卻對世界上的所有聲音而吸引，故事發生在一個倖存家庭，在一個荒廢農場裡躲藏生活，並改用手語來溝通，以免遭到外星生物的獵殺。</p>
+            </div>
+        </div>
+
+        <div id="block"><!3>
+            <div class="pic">
+                <img src="img/%E5%AE%BF%E6%80%A8.jpg" alt="Avatar" class="image">
+
+                <div class="overlay">
+                    <div class="text">Hereditary</div>
+                </div>
+            </div>
+
+            <div id="story">
+                <h3><b>宿怨 Hereditary
+                </b></h3>
+                <p>片長:128分鐘</p>
+                <p>如果最可怕的詛咒，來自你的血脈，你能逃去哪？自從葛瑞翰家族的大家長-艾倫夫人過世後，女兒安妮一肩負起母親身後和照顧家人的重擔。雖然母親已入土，安妮卻還是時常感受到母親揮之不去的存在，同時，不能解釋的異象接二連三發生在葛瑞翰家族身上。為了讓母親安息，女兒安妮決定求助於母親身前的好友靈媒。隨著逐漸挖掘的真相，他們對自己身世的認知越來越崩解，安妮試圖帶著孩子逃脫家族的險惡宿命。驅魔儀式即將開始，他們不知道的是，註定要代代相傳的厄運必須有人繼承......</p>
+            </div>
+        </div>
+
+        <div id="block"><!4>
+            <div class="pic">
+                <img src="img/%E7%9C%9F%E5%BF%83%E8%A9%B1%E5%A4%A7%E5%86%92%E9%9A%AA.jpg" alt="Avatar" class="image">
+
+                <div class="overlay">
+                    <div class="text">Truth or Dare</div>
+                </div>
+            </div>
+
+            <div id="story">
+                <h3><b>真心話大冒險 Truth or Dare
+                </b></h3>
+                <p>片長:100分鐘</p>
+                <p>繼《逃出絕命陣》之後，Blumhouse 製作公再次推出驚悚指數滿點的《真心話大冒險》，一群好友在嘗試無害遊戲「真心話大冒險」之後，意外之間成為了死亡遊戲的開始，拒絕參與遊戲以及付出懲罰的人，將會迎來一連串的懲罰，而誰也逃不過。</p>
+            </div>
+        </div>
+
+        <div id="block"><!5>
+            <div class="pic">
+                <img src="img/%E8%87%AA%E6%AE%BA%E5%AF%A6%E5%A2%83%E7%A7%80.jpg" alt="Avatar" class="image">
+
+                <div class="overlay">
+                    <div class="text">This is Your Death</div>
+                </div>
+            </div>
+
+            <div id="story">
+                <h3><b>自殺實境秀 This is Your Death
+                </b></h3>
+                <p>片長:105分鐘</p>
+                <p>亞當羅傑斯（喬許杜哈莫 飾）在主持實境節目時意外發生一起命案，引發軒然大波，然而製作單位卻發現節目不用因此負上責任。為了挽救節節下滑的收視率，製作單位竟突發奇想推出一檔「自殺實境秀」，每集都會邀請參賽者上節目「自我了結」，贏得觀眾票選的參賽者還能此獲得獎金。「自殺實境秀」一炮而紅，觀眾期待看見更多暴力血腥的極端場面，當「自殺」牽扯上「娛樂」，整個節目也愈趨瘋狂失控……</p>
+            </div>
+        </div>
+
+        <div id="block"><!6>
+            <div class="pic">
+                <img src="img/%E9%99%B0%E5%85%92%E6%88%BF%E7%AC%AC4%E7%AB%A0.jpg" alt="Avatar" class="image">
+
+                <div class="overlay">
+                    <div class="text">Insidious: Chapter 4</div>
+                </div>
+            </div>
+
+            <div id="story">
+                <h3><b>陰兒房第 4 章：鎖命亡靈
+                Insidious: Chapter 4
+                </b></h3>
+                <p>片長:104分鐘</p>
+                <p>【陰兒房第 3 章：從靈開始】琳雪伊回歸飾演超自然心理學家，在一次偶然的案件調查中，卻意外將他帶回最不願面對的過往，更被迫面對內心最害怕的秘密，「恐懼是回家唯一的路」。由【失魂記憶】導演亞當羅勃提爾執導、【陰兒房】系列原創團隊之一的雷沃納爾執筆劇本、鬼才導演溫子仁將擔任製片，打造極致驚悚的最新經典。</p>
+            </div>
+        </div>
+
+    </div>
+    <!all!>
+
+</body>
+</html>

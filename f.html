@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        /*西洋-劇情*/
+
+        body {
+            background-image: url(img2/pop.jpg);
+            background-repeat: repeat;
+            /*background-size: cover;*/
+            background-attachment: fixed;
+            background-position: center;
+            opacity: 0.95;
+        }
+
+        #all {
+            height: auto;
+            width: 1000px;
+            position: relative;
+            /*置中*/
+            margin: 0 auto;
+            /*置中*/
+        }
+
+        #head {
+            background-color: black;
+            height: 220px;
+            color: white;
+            font-family: fantasy;
+            text-align: center;
+            font-size: 100px;
+            /*line-height: 350px;*/
+            padding-left: 200px;
+            /*距離左邊的距離*/
+            padding-top: 70px;
+        }
+
+        /*#all a:link{
+            color: white;
+            text-decoration:underline;
+        }
+        #all a:active{
+            color:crimson;
+        }
+        #all a:hover{
+            color:darkgreen;
+        }*/
+
+        #block {
+            height: 550px;
+            width: 1000px;
+            background-color: black;
+
+        }
+
+        /*-----------hover-------------*/
+
+        .pic {
+            position: absolute;
+            width: 350px;
+            float: left;
+            padding-left: 50px;
+           
+        }
+
+        .pic1 {
+            /*看要不要左右擺*/
+            position: relative;
+            width: 350px;
+            float: right;
+        }
+
+        .image {
+            display: block;
+            width: 100%;
+            height: 500px;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 50px;
+            right: 0;
+            height: 100%;
+            width: 88%;
+            opacity: 0;
+            transition: .5s ease;
+            background-color: rgb(0, 9, 26);
+            font-family: monospace;
+        }
+
+        .pic:hover .overlay {
+            opacity: 0.7;
+        }
+
+        .text {
+            color: white;
+            font-size: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        /*-----------hover-------------*/
+
+        #story {
+            /*height:450px;*/
+            width: 500px;
+            /*/background-color: #52527a;*/
+            color: white;
+            float: right;
+            font-family: Microsoft JhengHei;
+            padding-left: 60px;
+            padding-right: 80px;
+            padding-top: 60px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="all">
+         <div id="head"><big><big>Mystery</big></big><small><small><small>/Mandarin</small></small></small></div>
+        <div id="block"><!1> 
+            <div class="pic">
+                <img src="img/%E7%9B%AE%E6%93%8A%E8%80%85.jpg" alt="Avatar" class="image">
+
+                <div class="overlay">
+                    <div class="text">Who Killed Cock Robin</div>
+                </div>
+            </div>
+
+            <div id="story">
+                <h3><b>目擊者 zWho Killed Cock Robin</b></h3>
+                <p>片長:112分鐘</p>
+                <p>九年前，雷雨滂沱的黑夜，報社菜鳥小齊開車在山區拋錨，意外目睹一場肇事逃逸的車禍。支離破碎的現場，男性駕駛當場死亡，副駕駛座的女性徐愛婷在送醫後陷入昏迷，慌亂之間，小齊拍到的肇事車牌模糊難辨，不足以為證，車禍的真相也跟著石沈大海......</p>
+            </div>
+        </div>
+
+        <div id="block"><!2>
+            <div class="pic">
+                <img src="img/%E7%B4%85%E8%A1%A3%E5%B0%8F%E5%A5%B3%E5%AD%A92.jpg" alt="Avatar" class="image">
+
+                <div class="overlay">
+                    <div class="text">The Tag-Along 2 </div>
+                </div>
+            </div>
+
+            <div id="story">
+                <h3><b>紅衣小女孩 The Tag-Along 2 </b></h3>
+                <p>片長:108分鐘</p>
+                <p>《紅衣小女孩》續集《紅衣小女孩 2 》由首集導演程偉豪領軍，原班製作團隊和主演黃河、許瑋甯再度回歸，並加入三大金鐘影帝后楊丞琳、高慧君、龍劭華的全新組合。楊丞琳飾演一位社工「淑芬」，和高慧君飾演的媽媽「美華」以及龍劭華飾演的師父「阿龍師」，將與許瑋甯飾演的「怡君」、黃河飾演的「志偉」有許多新的故事關連。導演表示續集將揭露紅衣小女孩身世之謎，勢必創造出高潮迭起的驚悚情節，挑戰台灣影史最震撼的恐怖片續集觀影極限。</p>
+            </div>
+        </div>
+
+        <div id="block"><!3>
+            <div class="pic">
+                <img src="img/%E7%A5%9E%E7%A7%98%E5%AE%B6%E6%97%8F.jpg" alt="Avatar" class="image">
+
+                <div class="overlay">
+                    <div class="text">The Mysterous Family</div>
+                </div>
+            </div>
+
+            <div id="story">
+                <h3><b>神秘家族 The Mysterous Family </b></h3>
+                <p>片長:92分鐘</p>
+                <p>苗苗（林依晨 飾）與父母和弟弟擁有一個平凡幸福的家庭，竟然在平安夜，全家慘遭滅門之禍，只有她一人倖存，而她親眼見到家人躺在血泊之中。苗苗想要尋找慘案的真相時，竟然發現家族裡的每一個人都在極力隱藏一個巨大的秘密，父親（姜武 飾）、母親（惠英紅 飾）和弟弟（陳曉 飾）之間的關係也顯得撲塑迷離，而這一切都要從 3 年前，苗苗被神秘男子性侵的那個雨夜說起...</p>
+            </div>
+        </div>
+
+        <div id="block"><!4>
+            <div class="pic">
+                <img src="img/%E6%9C%80%E5%AE%8C%E7%BE%8E%E7%9A%84%E5%A5%B3%E5%AD%A9.jpg" alt="Avatar" class="image">
+
+                <div class="overlay">
+                    <div class="text">The Perfect Girl</div>
+                </div>
+            </div>
+
+            <div id="story">
+                <h3><b>最完美的女孩 The Perfect Girl</b></h3>
+                <p>片長:98分鐘</p>
+                <p>一封署名『未來的我』的 Email 預言她 24 小時後，將為她犯下的罪行，畏罪自殺結果這一切全部是....人格分裂是介於精神病理學和心理學的一種病症，大多時間隱藏的主人格並不會出現，而自身也並不會發覺其實已經被其他人格所支配了。葉欣（李毓芬 飾）是專攻犯罪心理學的高材生，擁有美麗的外貌和與之媲美的聰慧頭腦，父親葉景孝（謝祖武 飾）是心臟外科權威，男友林邈（張睿家飾）則是專長法醫學的年輕法醫，葉欣生活週遭的一切看起來是那麼的完美，但在某一天下大雨的深夜，葉欣舊家後院被闖入的野狗挖掘出人骨，同時葉欣收到署名罪惡小葉的信件，信中預告葉欣看似完美的生活即將面臨崩潰。隨著罪惡小葉的倒數預告，葉欣的週遭牽扯出多條犯案手法離奇的兇殺命案，葉欣追尋線索同時發現男友與父親各自與命案有著牽扯不清的關聯性...葉欣是否能夠在這一切謎題中找到解答。</p>
+            </div>
+        </div>
+
+        <div id="block"><!5>
+            <div class="pic">
+                <img src="img/%E6%A8%93%E4%B8%8B%E7%9A%84%E6%88%BF%E5%AE%A2.jpg" alt="Avatar" class="image">
+
+                <div class="overlay">
+                    <div class="text">The Tenants Downstairs</div>
+                </div>
+            </div>
+
+            <div id="story">
+                <h3><b>樓下的房客 The Tenants Downstairs</b></h3>
+                <p>片長:110分鐘</p>
+                <p>每一個人，心中都有一個魔鬼……。一間老式旅館繼承人（房東）在房間內安裝了針孔攝影機，並以低價出租房間，他不要用功上進的乖乖牌學生、不要枯橾乏味的上班族、不要勤儉質樸的和樂家庭，他只要「正常人」，擁有混亂潛質、能滿足他窺看欲望的正常人。六個房間、八個房客與一個房東，不為人知的秘密、難以克制的欲望在這棟旅館裡四處流竄，妄想控制一切的房東開始愚弄房客，企圖撩起人性最複雜的一面，導演一齣交織黑色幽默、奇幻、驚悚、推理又最貼近人性的精彩電影。</p>
+            </div>
+        </div>
+
+        <div id="block"><!6>
+            <div class="pic">
+                <img src="img/%E5%A4%B1%E6%8E%A7%E8%AC%8A%E8%A8%80.jpg" alt="Avatar" class="image">
+
+                <div class="overlay">
+                    <div class="text">White Lies, Black Lies</div>
+                </div>
+            </div>
+
+            <div id="story">
+                <h3><b>失控謊言 White Lies, Black Lies</b></h3>
+                <p>片長:94分鐘</p>
+                <p>王柏傑、許瑋甯、陳庭妮主演。 《失控謊言》劇本靈感來自於一件60年代萬華離奇兇殺命案，電影一開場便在高雄老城區「彩虹髮藝」店內形形色色的塑膠人頭之中，驚見老闆娘慘遭割喉。老闆的離奇失蹤、初戀情人現身、意外曝光的多年殺人懸案，以及一心想為好友洗清罪名的週刊記者，交織出一層層蘊藏於人性深處的真相、謊言。超脫認知框架，平凡的謊言交織著失控的真相：究竟誰說的才是真的？誰又會把真相說出口？</p>
+            </div>
+        </div>
+
+    </div>
+    <!all!>
+
+</body>
+</html>

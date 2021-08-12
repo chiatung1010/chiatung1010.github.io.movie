@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="pic.css">
+    <a href="top"></a>
+    <style>
+        #all {
+            /*height: 1000px;*/
+            width: 1500px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color:black;
+        }
+
+        #h1 {
+            background-color: rgb(230, 115, 0);
+            font-family:fantasy;
+            text-shadow: 5px 5px 3px rgb(128, 64, 0);
+            text-align: center;
+            font-size: 550%;
+            height: 150px;
+            padding-top: 20px;
+        }
+        #try{
+            font-size:20px;
+            font-family:fantasy;
+            padding-left:1400px;
+            color: red;
+            text-decoration: none;
+        }
+        #try a:link{
+            color: white;
+            text-decoration:none;
+        }
+        #try a:active{
+            color:crimson;
+        }
+        #try a:hover{
+            color:red;
+        }
+        
+        #nav {
+            background-color: black;
+            height: 35px;
+            text-align: center;
+            left: 50px;
+            font-family: fantasy;
+        }
+
+        #nav ul {
+            margin: 0px;
+            list-style: none;
+          
+        }
+
+        #nav li {
+            display: inline-block;
+            margin-left: 10px;
+
+        }
+
+        #nav a {
+            display: block;
+            color: white;
+            font-family: Microsoft JhengHei;
+            text-decoration: none;
+            font-size: 18px;
+            background-color: black;
+            line-height: 50px;
+            padding-left: 30px;
+            padding-right: 30px;
+            width: 180px;/*間隔*/
+        }
+
+        #nav a:hover {
+            background-color:white;
+            color:coral;
+            font-weight: bolder;
+            /*字會變粗*/
+        }
+
+        #nav ul ul {
+            display: none;
+            z-index: 1;
+            margin: 0px;
+            padding: 0px;
+            position: absolute;
+        }
+
+        #nav li li {
+            display: block;
+            margin: 0px;
+            padding: 0px;
+            position: 100px;
+            
+        }
+
+        #nav li:hover ul {
+            display: block;
+        }
+
+        #pic {
+            background-color: black;
+            width: 1500px;
+            height: 630px;
+            margin: 0 auto;
+        }
+        #new{
+            background-color: black;
+            color: rgb(153, 0, 0);
+            font-family:fantasy;
+            font-size: 60px;
+            text-align: center;
+            height: 130px;
+        }
+        
+        #introvid{
+            background-color:black;
+            height: 400px;
+            width: 1500px;
+        }
+        #intro {
+            background-color:black;
+            color: white;
+            font-family: Microsoft JhengHei;
+            height: 400px;
+            width: 750px;
+            padding-left: 300px;
+            padding-top: 10px;
+            float:left;
+        }
+        #vid {
+            background-color: black;
+            color: rgb(153, 0, 0);
+            font-family: Microsoft JhengHei;
+            font-size: 50px;
+            height: 400px;
+            width: 750px;
+            float: right;
+            /*text-align: center;*/
+        }
+        #top10{
+            font-size: 70px;
+            text-align: center;
+        }
+        #top0{
+            background-color:black;
+            color: white;
+            font-family: Microsoft JhengHei;
+            height: 700px;
+            width: 1500px;
+            text-align: center;
+            line-height: 40px;
+        }
+        #iconus{
+            background-color:rgb(230, 115, 0);
+            height: 200px;
+            width: 1500px; 
+            clear: both;
+        }
+        #icon{
+            color: white;
+            font-family: Microsoft JhengHei;
+            text-align: center;
+            padding-top:20px;
+        }      
+        .we{
+            border-radius: 50%;
+            height: 150px;
+            width: 150px;
+            position: absolute;
+            right: 20px;
+        }
+        #backtop{
+            height: 60px;
+            position: absolute;
+            right: 50px;
+        }
+        #final{
+            background-color:rgb(230, 115, 0);
+            height: 70px;
+            width: 1500px; 
+        }
+        #topp{
+            width: 1000px;
+            margin: 0 auto;
+        }
+        .pic2{
+            height: 300px;
+            width: 200px;
+            position: relative;
+            float:right;
+            padding-right: 10px;
+        }
+        .image {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+        .overlay2 {
+            position: absolute; 
+            bottom: 0; 
+            background: rgb(0, 0, 0);
+            background: rgba(0, 0, 0, 0.5); /* Black see-through */
+           
+            width: 100%;
+            transition: .5s ease;
+            opacity:0;
+            color: black;
+            font-size: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+        .pic2:hover .overlay2 {
+            opacity: 0.75;
+        }
+        .text2 {
+            color: white;
+            font-size: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align:center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="all">
+        <div id="h1">Beyond Movies
+        <img src="img/film-roll.png" height="60px">  
+        </div>
+        <div id="try"><a target="_blank" href="try.html">TRYTRY</a></div> 
+        <div id="nav">
+            <ul>
+                <li><a href="#">Westerns</a>
+                    <ul> <!跳新分頁>
+                        <li><a target="_blank" href="a.html">Drama</a></li>
+                        <li><a target="_blank" href="b.html"> Horror</a></li>
+                        <li><a target="_blank" href="c.html">Comedy</a></li>
+                        <li><a target="_blank" href="d.html">Animation</a></li>
+                    </ul>
+                </li>
+                <li><a href="#"> Mandarin</a>
+                    <ul>
+                        <li><a target="_blank" href="e.html">Drama</a></li>
+                        <li><a target="_blank" href="f.html">Mystery</a></li>
+                        <li><a target="_blank" href="g.html">Comedy</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Asian </a>
+                    <ul>
+                        <li><a target="_blank" href="h.html">Drama</a></li>
+                        <li><a target="_blank" href="i.html">Animation</a></li>
+                        
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div id="pic">
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <div class="numbertext"></div>
+                    <img src="img/20170926175735_86.jpg" style="width:900px">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext"></div>
+                    <img src="img/20171225181142_77.jpg" style="width:900px">
+
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext"></div>
+                    <img src="img/20180227030817877765.jpg" style="width:900px">
+
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext"></div>
+                    <img src="img/avengersinfinitywar.jpg" style="width:900px">
+
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext"></div>
+                    <img src="img/maxresdefault.jpg" style="width:900px">
+
+                </div>
+
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+
+            <script>
+                var slideIndex = 0;
+                showSlides();
+
+                function showSlides() {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    var dots = document.getElementsByClassName("dot");
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    slideIndex++;
+                    if (slideIndex > slides.length) {
+                        slideIndex = 1
+                    }
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex - 1].style.display = "block";
+                    dots[slideIndex - 1].className += " active";
+                    setTimeout(showSlides, 2000); // Change image every 2 seconds
+                }
+            </script>
+        </div>
+        <div id="new">
+            <h3> <img src="img/flame%20(1).png" height="60px">ON FIRE<img src="img/flame%20(1).png" height="60px"></h3>  
+        </div>
+        <div id="introvid">
+        <div id="intro">
+            <h2>復仇者聯盟3：無限之戰</h2>
+            <h2>Avengers: Infinity War</h2>
+            <p>2018年收入第一名</p>
+            <p>全球最高電影票房第四名</p>
+            <p>必看熱門電影 ! ! !</p>
+        </div>
+        <div id="vid">
+            <iframe width="500" height="300" src="https://www.youtube.com/embed/QwievZ1Tx-8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+    </div>
+     <div id="top0">
+       <h1 id="top10">ToP 10 in 2018</h1>
+        <div id="topp">
+         <div class="pic2">
+          <img src="img/%E7%B4%85%E9%9B%80.jpg" alt="Avatar" class="image">
+          <div class="overlay2">
+         <div class="text2">Top 5</div>
+          </div>
+        </div>
+        
+        <div class="pic2">
+          <img src="img/%E6%AD%BB%E4%BE%8D.jpg" alt="Avatar" class="image">
+          <div class="overlay2">
+         <div class="text2">Top 4</div>
+          </div>
+        </div>
+        
+        <div class="pic2">
+          <img src="img/%E9%BB%91%E8%B1%B9.jpg" alt="Avatar" class="image">
+          <div class="overlay2">
+         <div class="text2">Top 3</div>
+          </div>
+        </div>
+        
+        <div class="pic2">
+          <img src="img/%E4%B8%80%E7%B4%9A%E7%8E%A9%E5%AE%B6.jpg" alt="Avatar" class="image">
+          <div class="overlay2">
+         <div class="text2">Top 2</div>
+          </div>
+        </div>
+        
+        <div class="pic2">
+          <img src="img/%E5%BE%A9%E4%BB%87%E8%80%853.jpg" alt="Avatar" class="image">
+          <div class="overlay2">
+         <div class="text2">Top 1</div>
+          </div>
+        </div>
+        <br><br><br><!換行>
+        <div class="pic2">
+          <img src="img/GATAO2.jpg" alt="Avatar" class="image">
+          <div class="overlay2">
+         <div class="text2">Top 10</div>
+          </div>
+        </div>
+        
+        <div class="pic2">
+          <img src="img/%E6%AF%80%E6%BB%85%E5%A4%A7%E4%BD%9C%E6%88%B0.jpg" alt="Avatar" class="image">
+          <div class="overlay2">
+         <div class="text2">Top 9</div>
+          </div>
+        </div>
+        
+        <div class="pic2">
+          <img src="img/%E5%8F%A4%E5%A2%93%E5%A5%87%E5%85%B5.jpg" alt="Avatar" class="image">
+          <div class="overlay2">
+         <div class="text2">Top 8</div>
+          </div>
+        </div>
+        
+        <div class="pic2">
+          <img src="img/%E7%92%B0%E5%A4%AA%E5%B9%B3%E6%B4%8B.jpg" alt="Avatar" class="image">
+          <div class="overlay2">
+         <div class="text2">Top 7</div>
+          </div>
+        </div>
+        
+        <div class="pic2">
+          <img src="img/%E7%A7%BB%E5%8B%95%E8%BF%B7%E5%AE%AE.jpg" alt="Avatar" class="image">
+          <div class="overlay2">
+         <div class="text2">Top 6</div>
+          </div>
+        </div>      
+        </div> 
+     </div>   
+        <div id="iconus">
+        <div id="icon">
+            <h3><b>WU LI YEA</b> </h3>
+            <p>1062005 x 1062015 x 1062017</p>
+            <P>Contact Us </P>
+            <a href="https://www.facebook.com/%E5%85%83%E6%99%BA%E8%B3%87%E5%82%B3%E7%B3%BB%E5%AD%B8%E6%9C%83-638849019634835/?hc_ref=ARTsotH9uk5QEylY-fnlQxO62NgMig_kPVkmoQbJBGkmfhpJkFYpgN4KU4XZvShXOh0">
+            <img src="img/facebook-logo-button.png" height="60px"></a>
+            <a href="https://www.instagram.com/yzu_ilife/"><img src="img/instagram-logo.png" height="60px"></a>
+            <a href="https://www.instagram.com/taylor_wuuuuuu/">
+            <img src="img/user-avatar-main-picture.png" height="60px"></a>
+         </div>  
+         </div> 
+        <div id="final">
+            <a href="#top"><img id="backtop" src="img/arrow-up-.png" height="30px"></a>
+        </div>           
+    </div> <!all!>
+    
+</body>
+</html>
